@@ -1,0 +1,42 @@
+#all_products{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(4,300px);
+      gap: 10px;
+      width: 98%;
+      /* border: 1px solid #000; */
+      margin: auto;
+}
+.prodiv{
+     
+      text-align: center;
+      border-radius: 3px;
+      background-color: rgb(53, 49, 49);
+}
+.image{
+      width: 90%;
+      height: 40%;
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 5px;
+}
+h4{
+      margin: 10px;
+      color: white;
+}
+p{
+      margin: 5px;
+      color: white;
+
+}
+
+
+#add_more_product{
+      width: 180px;
+      height: 25px;
+      border-radius: 5px;
+}
+#add_more_product:hover{
+      color: white;
+      background-color: rgb(234, 86, 103);
+}
